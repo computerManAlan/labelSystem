@@ -297,6 +297,9 @@ class QuestionTable extends React.Component{
         if (value == null){
             value = []
         }
+        if(wordsNum == -1){
+            callback();
+        }
         if (value.length > wordsNum) {
             callback(`字数超过最大字数${wordsNum}个`)
         }else {
