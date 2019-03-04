@@ -204,7 +204,11 @@ class Login extends React.Component{
                             </Form>
                         </div>
                     </Content>
-                    <Footer></Footer>
+                    <Footer style={{ textAlign: 'center' }}>
+                        <a href="http://www.miitbeian.gov.cn">
+                            蜀ICP备18010275号-2
+                        </a>
+                    </Footer>
                 </Layout>
             </div>
         )
