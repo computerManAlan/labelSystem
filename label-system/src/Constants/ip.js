@@ -1,2 +1,2 @@
-export const IP = '';
+export const IP = '/remark';
 
